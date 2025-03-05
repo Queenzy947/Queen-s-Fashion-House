@@ -84,15 +84,19 @@ h3{
     background-color: rgb(181,20,20);
 }
 
-.item 2 p{
-    font-size:20px;
-    font-style: italics;
-    color: green;
+.collection p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
 }
-
-.item 2{
-    background-color: aqua;
-    font-style: italics;
-}
+@media(max-width:102px){
+    .menu{
+        display: block;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
 
 
