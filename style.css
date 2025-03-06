@@ -24,7 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    color: blueviolet;
+    color: black;
 }
 .menu ul{
    display: flex; 
